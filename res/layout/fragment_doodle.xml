@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <view
+        android:id="@+id/doodleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.deitel.doodlz.DoodleView" />
+    
+ <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/menuitem_backgroundImage"
+        android:scaleType="fitXY" />
+</FrameLayout>
